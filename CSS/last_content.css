@@ -1,0 +1,270 @@
+.last_banner{
+    height:auto;
+    width:auto;
+    background-color:#000249;
+    opacity:0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+.layout_lbanner{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.container_lb_bg{
+    position: relative;
+}
+
+.container_lb_content{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_container_lb{
+    width:700px;
+}
+
+.left_container_lb h1{
+    width:50%;
+    font-size: 48px;
+    line-height: 60px;
+    color: white;
+    margin-left: 55px;
+}
+
+.content_lb ul{
+    width:auto;
+}
+
+.content_lb ul li{
+    list-style-type: none;
+    color: white;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.content_lb ul li img{
+    position: relative;
+    width:26px;
+    height:26px;
+}
+
+.content_lb ul li span{
+    position: relative;
+    bottom: 5px;
+    left:10px;
+}
+
+.right_container_lb h3{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.right_container_lb{
+    width: 500px;
+}
+
+.form_label{
+    font-size: 22px;
+    color:white;
+    font-weight: bold;
+}
+
+.input_box{
+    width: 100%;
+    padding:8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border:2px solid black;
+    cursor: pointer;
+    font-size:16px;
+    outline:none;
+}
+
+.input_box:focus{
+    border-color: #0328fc;
+    box-shadow: 0 0 8px 0 #0328fc;
+}
+
+.input_box_p{
+    width: 100%;
+    padding:8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border:2px solid black;
+    cursor: pointer;
+    font-size:16px;
+    outline:none;
+}
+
+.input_box_p:focus{
+    border-color: #0328fc;
+    box-shadow: 0 0 8px 0 #0328fc;
+}
+
+.form-control_1{
+    width: 100%;
+    padding:8px;
+    margin: 5px 0;
+    border:2px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.form-select_2{
+    width: 70%;
+    padding:8px;
+    margin: 5px 0;
+    border:2px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.submit_2{
+    width:250px;
+    height:40px;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(86.87deg,#cd9564 1.86%,#ffcb9a 94.58%);
+    border:none;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    animation: blink 1s linear infinite;
+    cursor:pointer;
+}
+
+
+
+@media screen and (max-width:1300px) {
+    .coin2_big{
+        opacity: 0;
+        z-index: -5;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter:blur(0);
+    transform:translateX(0);
+}
+
+@media screen and (max-width:1024px) {
+    .container_lb_content{
+        position: relative;
+        display:block;
+        justify-content: center;
+        left:21%;
+    }
+}
+
+@media screen and (max-width:805px) {
+    .right_container_lb{
+        position:relative;
+        display:block;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .container_lb_content{
+        position: relative;
+        display:block;
+        justify-content: center;
+        left:5%;
+    }
+
+    .right_container_lb{
+        width:350px;
+    }
+
+    .submit_2{
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .right_container_lb{
+        width:350px;
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width:435px){
+    .left_container_lb h1{
+        margin-left: 40px;
+    }
+
+    .content_lb ul li{
+        width: 340px;
+    }
+    .content_lb ul li span {
+        font-size:10px;
+    }
+    
+    .right_container_lb h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .submit_2{
+        margin-left: 20px;
+        width:250px;
+        height:40px;
+    }
+
+    .left_container_lb{
+        width: 450px;
+    }
+
+    .left_container_lb h1{
+        font-size: 38px;
+    }
+
+    .input_box{
+        width:85%;
+    }
+
+    .form-control_1{
+        width:85%;
+    }
+
+    .input_box_p{
+        width:100%;
+        margin-right:50px;
+    }
+    .right_container_lb h3 {
+        margin-right: 70px;
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width:321px){
+    .content_lb{
+        position: relative;
+        right:30px;
+
+    }
+
+    .submit_2{
+        margin-left: 10px;
+    }
+    .right_container_lb{
+        width:310px;
+        margin-left:10px;
+    }
+}

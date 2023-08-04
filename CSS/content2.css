@@ -1,0 +1,121 @@
+.content2{
+    overflow: hidden;
+}
+
+.layout_content2{
+    max-width: 1240px;
+    margin:0 auto;
+
+}
+
+.cont2_bg{
+    height:auto;
+    width:auto;
+    background-color:#000249;
+    border-radius: 20px;
+}
+
+.container_cont2{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content2 .header_2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 40px;
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 4s linear infinite;
+}
+
+.container_cont2 ul li {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.step_info{
+    color:white;
+    width:400px;
+    margin-left: 100px;
+}
+
+.step_info h2{
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(-225deg,#b87b45,#c6956a 29%,#dfa976 67%,#e9d7c7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: textShine 2.5s linear infinite;
+}
+
+.step_info p{
+    font-size: 22px;
+}
+
+.img_1_step{
+    width:250px;
+    height:250px;
+}
+
+.img_2_step{
+    width:150px;
+    height:150px;
+    margin-left: 50px;
+
+}
+
+.img_3_step{
+    width:150px;
+    height:150px;
+    margin-left: 50px;
+}
+
+.img_4_step{
+    width:200px;
+    height:200px;
+    margin-left:10px;
+}
+
+
+@keyframes blink {
+    50%{
+        opacity: 0.3;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .container_cont2 ul li{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .container_cont2 ul{
+        margin-right: 100px;
+    
+    }
+
+    .step_info{
+        width: 250px;
+    }
+}
