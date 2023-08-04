@@ -1,0 +1,147 @@
+.copyright{
+    height:auto;
+    width:auto;
+    background: linear-gradient(266.24deg,#25c6c6 .53%,#0a0d25 98.01%);
+    overflow-x: hidden;
+}
+
+.layout_copyright{
+    max-width: 1240px;
+    margin: auto;
+}
+
+.copyright_logo{
+    width:89px;
+    height:80px;
+    margin-top: 50px;
+}
+
+.container_copyright{
+    display:block;
+    width:auto;
+}
+
+.content_copyright{
+    display:flex;
+    margin-top: 15px;
+    width:auto;
+}
+
+.main_content_copyright span{
+    position: relative;
+    width:100%;
+    top:5px;
+    left:10px;
+    font-size: 13px;
+    color:white;
+}
+
+.main_content_2_copyright{
+    position: relative;
+    left:37px;
+    font-size: 13px;
+    color:white;
+}
+
+.risk_warn{
+    border-radius: 8px;
+    margin: 22px 0;
+    display:Flex;   
+}
+
+.risk_warn span{
+    position: relative;
+    color:white;
+    font-size: 13px;
+    top:5px;
+    left:10px;
+}
+
+.copyright_logo_c{
+    text-align: center;
+    color:white;
+    font-size:13px;
+}
+
+.warning{
+    color:white;
+    font-size: 13px;
+    margin:0 auto;
+}
+
+@media screen and (max-width:680px) {
+    .copyright_logo{
+    width:89px;
+    height:80px;
+    margin-top: 50px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .container_copyright{
+        width:1100px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .warning{
+        font-size: 11px;
+        position:relative;
+        left:3.5%;
+    }
+
+    .container_copyright{
+        width:970px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .container_copyright{
+        width:720px;
+    }
+
+    .warning{
+        font-size: 11px;
+        position:relative;
+        left:5%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .container_copyright{
+        width:385px;
+    }
+
+    .warning{
+        font-size: 11px;
+        position:relative;
+        left:8.5%;
+    }
+    .copyright_logo_c{
+        position: relative;
+        margin-left: 10px;;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .container_copyright{
+        width:345px;
+    }
+    .warning{
+        font-size: 11px;
+        position:relative;
+        left:9%;
+    }
+    .copyright_logo_c{
+        font-size:11px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .container_copyright{
+        width:285px;
+    }
+    .copyright_logo_c{
+        font-size:11px;
+    }
+}
